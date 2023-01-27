@@ -2,10 +2,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        ABCheck ABCheck = new ABCheck();
+        convertDoubleSpaceToSingle convertDoubleSpaceToSingle = new convertDoubleSpaceToSingle();
 
-        boolean output = ABCheck.ABCheck("lane Borrowed");
-        System.out.println(output); // --> true
+        String output = convertDoubleSpaceToSingle.convertDoubleSpaceToSingle("string  with  double  spaces");
+        System.out.println(output); // --> "string with double spaces"
 
     }
 }
