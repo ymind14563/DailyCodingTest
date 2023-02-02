@@ -20,11 +20,15 @@ public class Main {
 //        int[] output = reverseArr.reverseArr(new int[]{1, 2, 3, 4, 5, 6, 7});
 //        System.out.println(Arrays.toString(output)); // --> [3, 2, 1]
 
-        readVertically readVertically = new readVertically();
+//        readVertically readVertically = new readVertically();
+//
+//        String[] input = new String[]{readVertically.readVertically(new String[]{"hi", "wolrd",})} 87;
+//        String output = readVertically.readVertically(input);
+//        System.out.println(output); // --> "hwiolrd"
 
-        String[] input = new String[]{readVertically.readVertically(new String[]{"hi", "wolrd",})};
-        String output = readVertically.readVertically(input);
-        System.out.println(output); // --> "hwiolrd"
+        superIncreasing superIncreasing = new superIncreasing();
+        boolean output = superIncreasing.superIncreasing(new int[]{1, 3, 6, 13, 58});
+        System.out.println(output); // --> true
 
 
     }
