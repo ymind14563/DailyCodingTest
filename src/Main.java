@@ -26,10 +26,13 @@ public class Main {
 //        String output = readVertically.readVertically(input);
 //        System.out.println(output); // --> "hwiolrd"
 
-        superIncreasing superIncreasing = new superIncreasing();
-        boolean output = superIncreasing.superIncreasing(new int[]{1, 3, 6, 13, 58});
-        System.out.println(output); // --> true
+//        superIncreasing superIncreasing = new superIncreasing();
+//        boolean output = superIncreasing.superIncreasing(new int[]{1, 3, 6, 13, 58});
+//        System.out.println(output); // --> true
 
+        modulo modulo = new modulo();
+        Integer output = modulo.modulo(25, 4);
+        System.out.println(output); // --> 1
 
     }
 }
