@@ -30,9 +30,12 @@ public class Main {
 //        boolean output = superIncreasing.superIncreasing(new int[]{1, 3, 6, 13, 58});
 //        System.out.println(output); // --> true
 
-        modulo modulo = new modulo();
-        Integer output = modulo.modulo(25, 4);
-        System.out.println(output); // --> 1
+//        modulo modulo = new modulo();
+//        Integer output = modulo.modulo(25, 4);
+//        System.out.println(output); // --> 1
 
+        isIsogram isIsogram = new isIsogram();
+        boolean output = isIsogram.isIsogram("abb");
+        System.out.println(output); // false
     }
 }
