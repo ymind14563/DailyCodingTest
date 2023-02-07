@@ -11,6 +11,7 @@ public class modulo {
             result = num1 - value;
             if(result > num2) i++;
             else break;
+
         }
         return result;
     }
