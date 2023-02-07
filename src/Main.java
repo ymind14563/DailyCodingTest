@@ -34,8 +34,12 @@ public class Main {
 //        Integer output = modulo.modulo(25, 4);
 //        System.out.println(output); // --> 1
 
-        isIsogram isIsogram = new isIsogram();
-        boolean output = isIsogram.isIsogram("abb");
-        System.out.println(output); // false
+//        isIsogram isIsogram = new isIsogram();
+//        boolean output = isIsogram.isIsogram("abb");
+//        System.out.println(output); // false
+
+        computeSquareRoot computeSquareRoot = new computeSquareRoot();
+        String output = computeSquareRoot.computeSquareRoot(9);
+        System.out.println(output); // --> "3.00"
     }
 }
