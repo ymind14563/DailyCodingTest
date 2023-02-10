@@ -1,7 +1,7 @@
 public class ABCheck {
     public boolean ABCheck(String str) {
         // TODO :
-        if(str.length() == 0) {
+        if(str.length() == 0)  {
             return false;
         }
 
