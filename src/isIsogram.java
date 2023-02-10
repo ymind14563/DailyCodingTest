@@ -10,4 +10,11 @@ public class isIsogram {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        isIsogram isIsogram = new isIsogram();
+        boolean output = isIsogram.isIsogram("abb");
+        System.out.println(output); // false
+    }
 }
+
