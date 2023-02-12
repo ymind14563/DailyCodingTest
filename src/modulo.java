@@ -15,4 +15,10 @@ public class modulo {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        modulo modulo = new modulo();
+        Integer output = modulo.modulo(25, 4);
+        System.out.println(output); // --> 1
+    }
 }
