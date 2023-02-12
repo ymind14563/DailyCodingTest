@@ -17,4 +17,3 @@ public class isIsogram {
         System.out.println(output); // false
     }
 }
-
