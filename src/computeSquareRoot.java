@@ -1,3 +1,4 @@
+
 public class computeSquareRoot {
     public static String computeSquareRoot(int num) {
         // TODO:
@@ -9,4 +10,17 @@ public class computeSquareRoot {
 
         return String.format("%.2f", result);
     }
+
+    public static void main(String[] args) {
+        computeSquareRoot computeSquareRoot = new computeSquareRoot();
+        String output = computeSquareRoot.computeSquareRoot(9);
+        System.out.println(output); // --> "3.00"
+
+    }
 }
+
+
+
+
+
+
