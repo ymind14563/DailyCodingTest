@@ -11,7 +11,6 @@ public class power {
         if(exponent % 2 == 1) return (base * result) % 94906249;
         else return result;
     }
-
     public static void main(String[] args) {
         power power = new power();
         long output = power.power(3, 40);
